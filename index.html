@@ -1236,20 +1236,3 @@ yesButton.addEventListener("click",() => {
 </body>
 </html>
 ```
-
-### What I changed for mobile
-
-* **Full `100dvh` support** → handles modern phone browsers better than plain `100vh`.
-* **Safe-area support** → works better with iPhone notches/Dynamic Island.
-* **Buttons become full-width** on phones → much easier to tap.
-* **Long questions wrap properly** instead of overflowing.
-* **Card scales down automatically** on small phones.
-* Added support for **very small screens** like iPhone SE-sized displays.
-* Added handling for **short-height screens** so the card doesn't get pushed off-screen.
-* Added `backdrop-filter` + `-webkit-backdrop-filter` for better mobile browser compatibility.
-* Added proper **touch behavior** and a satisfying tap animation.
-* Added `prefers-reduced-motion` support.
-* The final **SOHAM WEDS PRAGYA** screen also scales properly instead of overflowing.
-* The proposal remains centered without needing the user to scroll.
-
-So you can open this on a normal desktop **or just send the HTML file to her phone**, and the layout will adapt automatically.
